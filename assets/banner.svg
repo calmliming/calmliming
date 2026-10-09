@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="212" viewBox="0 0 840 212" role="img" aria-label="calm：做 AI 应用和顺手的小工具">
+<style>
+  .bg { fill: #E5EAEE; }
+  .ink { stroke: #22303D; }
+  .dot { fill: #22303D; }
+  .end { fill: #C98A2E; }
+  .tag { fill: #5B6C7C; font: 400 19px "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif; letter-spacing: 0.5px; }
+  .bar { transform-box: fill-box; transform-origin: 50% 50%; animation: breathe ease-in-out infinite alternate; }
+  @keyframes breathe { from { transform: scaleY(1); } to { transform: scaleY(0.6); } }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #18212B; }
+    .ink { stroke: #E2E8EE; }
+    .dot { fill: #E2E8EE; }
+    .end { fill: #E2A84B; }
+    .tag { fill: #93A3B3; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .bar { animation: none; }
+  }
+</style>
+<rect class="bg" width="840" height="212" rx="14"/>
+<g class="ink" fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M101.4 84.6 A24 24 0 1 0 101.4 115.4"/>
+  <path d="M148 76 A24 24 0 1 0 148 124 A24 24 0 1 0 148 76"/>
+  <path d="M172 76 V124"/>
+  <path d="M198 40 V124"/>
+  <path d="M224 124 V100 A16 24 0 0 1 256 100 V124"/>
+  <path d="M256 100 A16 24 0 0 1 288 100 V124"/>
+  <line class="bar" x1="314" y1="80.2" x2="314" y2="119.8" vector-effect="non-scaling-stroke" style="animation-duration:2.60s;animation-delay:-0.00s"/>
+  <line class="bar" x1="332" y1="67.8" x2="332" y2="132.2" vector-effect="non-scaling-stroke" style="animation-duration:3.30s;animation-delay:-0.37s"/>
+  <line class="bar" x1="350" y1="80.0" x2="350" y2="120.0" vector-effect="non-scaling-stroke" style="animation-duration:4.00s;animation-delay:-0.74s"/>
+  <line class="bar" x1="368" y1="76.9" x2="368" y2="123.1" vector-effect="non-scaling-stroke" style="animation-duration:2.95s;animation-delay:-1.11s"/>
+  <line class="bar" x1="386" y1="91.3" x2="386" y2="108.7" vector-effect="non-scaling-stroke" style="animation-duration:3.65s;animation-delay:-1.48s"/>
+  <line class="bar" x1="404" y1="84.2" x2="404" y2="115.8" vector-effect="non-scaling-stroke" style="animation-duration:2.60s;animation-delay:-1.85s"/>
+  <line class="bar" x1="422" y1="90.4" x2="422" y2="109.6" vector-effect="non-scaling-stroke" style="animation-duration:3.30s;animation-delay:-2.22s"/>
+  <line class="bar" x1="440" y1="87.9" x2="440" y2="112.1" vector-effect="non-scaling-stroke" style="animation-duration:4.00s;animation-delay:-2.59s"/>
+  <line class="bar" x1="458" y1="95.5" x2="458" y2="104.5" vector-effect="non-scaling-stroke" style="animation-duration:2.95s;animation-delay:-0.01s"/>
+  <line class="bar" x1="476" y1="94.2" x2="476" y2="105.8" vector-effect="non-scaling-stroke" style="animation-duration:3.65s;animation-delay:-3.33s"/>
+  <line class="bar" x1="494" y1="97.3" x2="494" y2="102.7" vector-effect="non-scaling-stroke" style="animation-duration:2.60s;animation-delay:-1.10s"/>
+  <line class="bar" x1="512" y1="97.6" x2="512" y2="102.4" vector-effect="non-scaling-stroke" style="animation-duration:3.30s;animation-delay:-0.77s"/>
+  <line class="bar" x1="530" y1="99.2" x2="530" y2="100.8" vector-effect="non-scaling-stroke" style="animation-duration:4.00s;animation-delay:-0.44s"/>
+  <line class="bar" x1="548" y1="99.6" x2="548" y2="100.4" vector-effect="non-scaling-stroke" style="animation-duration:2.95s;animation-delay:-1.86s"/>
+</g>
+<circle class="dot" cx="566" cy="100" r="3.5" opacity="0.55"/>
+<circle class="dot" cx="584" cy="100" r="3.5" opacity="0.51"/>
+<circle class="dot" cx="602" cy="100" r="3.5" opacity="0.48"/>
+<circle class="dot" cx="620" cy="100" r="3.5" opacity="0.44"/>
+<circle class="dot" cx="638" cy="100" r="3.5" opacity="0.40"/>
+<circle class="dot" cx="656" cy="100" r="3.5" opacity="0.37"/>
+<circle class="dot" cx="674" cy="100" r="3.5" opacity="0.33"/>
+<circle class="dot" cx="692" cy="100" r="3.5" opacity="0.30"/>
+<circle class="dot" cx="710" cy="100" r="3.5" opacity="0.26"/>
+<circle class="dot" cx="728" cy="100" r="3.5" opacity="0.22"/>
+<circle class="dot" cx="746" cy="100" r="3.5" opacity="0.19"/>
+<circle class="dot" cx="764" cy="100" r="3.5" opacity="0.15"/>
+<circle class="end" cx="784" cy="100" r="6.0"/>
+<text class="tag" x="56" y="172">做 AI 应用和顺手的小工具</text>
+</svg>
