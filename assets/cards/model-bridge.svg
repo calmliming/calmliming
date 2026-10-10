@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846" height="148" viewBox="0 0 846 148" role="img" aria-label="model-bridge：自托管的 AI API 中转平台。把 Claude、OpenAI、Gemini、DeepSeek 的账号变成标准接口分给朋友，每人一个 Key，多账号自动轮询，用量按天、模型和 Key 统计。">
+<style>
+  text { font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif; }
+  .card { fill: #EEF2F5; }
+  .name { fill: #22303D; font-size: 18px; font-weight: 600; }
+  .desc { fill: #4E5D6C; font-size: 14px; }
+  .meta { fill: #6B7A89; font-size: 12.5px; }
+  .icon { fill: none; stroke: #8496A8; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  @media (prefers-color-scheme: dark) {
+    .card { fill: #161E28; }
+    .name { fill: #E2E8EE; }
+    .desc { fill: #A9B6C3; }
+    .meta { fill: #8796A5; }
+    .icon { stroke: #6E8094; }
+  }
+</style>
+<rect class="card" x="0" width="846" height="148" rx="12"/>
+<text class="name" x="22" y="42">model-bridge</text>
+<path class="icon" transform="translate(796 20)" d="M8 5V23 M20 5V23 M2 18H26 M2 12L8 5Q14 15 20 5L26 12"/>
+<text class="desc" x="22" y="72">自托管的 AI API 中转平台。把 Claude、OpenAI、Gemini、DeepSeek 的账号变成标准接口分给朋友，</text>
+<text class="desc" x="22" y="94">每人一个 Key，多账号自动轮询，用量按天、模型和 Key 统计。</text>
+<circle cx="27" cy="121.5" r="5" fill="#3178C6"/>
+<text class="meta" x="38" y="126">TypeScript</text>
+<text class="meta" x="824" y="126" text-anchor="end">Fastify / PostgreSQL / Vue 3 / Docker</text>
+</svg>

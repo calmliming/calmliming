@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="423" height="148" viewBox="0 0 423 148" role="img" aria-label="ai-novel：移动端优先的 AI 小说写作工具。续写、改写、润色，每次修改都留着历史版本。">
+<style>
+  text { font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif; }
+  .card { fill: #EEF2F5; }
+  .name { fill: #22303D; font-size: 18px; font-weight: 600; }
+  .desc { fill: #4E5D6C; font-size: 14px; }
+  .meta { fill: #6B7A89; font-size: 12.5px; }
+  .icon { fill: none; stroke: #8496A8; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  @media (prefers-color-scheme: dark) {
+    .card { fill: #161E28; }
+    .name { fill: #E2E8EE; }
+    .desc { fill: #A9B6C3; }
+    .meta { fill: #8796A5; }
+    .icon { stroke: #6E8094; }
+  }
+</style>
+<rect class="card" x="0" width="413" height="148" rx="12"/>
+<text class="name" x="22" y="42">ai-novel</text>
+<path class="icon" transform="translate(363 20)" d="M14 8C11 6 6 6 3 7V22C6 21 11 21 14 23C17 21 22 21 25 22V7C22 6 17 6 14 8Z M14 8V23"/>
+<text class="desc" x="22" y="72">移动端优先的 AI 小说写作工具。续写、改写、</text>
+<text class="desc" x="22" y="94">润色，每次修改都留着历史版本。</text>
+<circle cx="27" cy="121.5" r="5" fill="#3178C6"/>
+<text class="meta" x="38" y="126">TypeScript</text>
+<text class="meta" x="391" y="126" text-anchor="end">Next.js / DeepSeek</text>
+</svg>
