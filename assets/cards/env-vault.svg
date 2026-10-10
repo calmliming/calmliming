@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="423" height="148" viewBox="0 0 423 148" role="img" aria-label="env-vault：本地优先的桌面应用，集中管理各个项目的配置文件和模型凭据。">
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="160" viewBox="0 0 415 160" role="img" aria-label="env-vault：本地优先的桌面应用，集中管理各个项目的配置文件和模型凭据。">
 <style>
   text { font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif; }
   .card { fill: #EEF2F5; }
@@ -13,13 +13,18 @@
     .meta { fill: #8796A5; }
     .icon { stroke: #6E8094; }
   }
+  @media (max-width: 400px) {
+    .name { font-size: 20px; }
+    .desc { font-size: 16px; }
+    .meta { font-size: 14px; }
+  }
 </style>
-<rect class="card" x="0" width="413" height="148" rx="12"/>
-<text class="name" x="22" y="42">env-vault</text>
-<path class="icon" transform="translate(363 20)" d="M14 14A5 5 0 1 1 4 14A5 5 0 1 1 14 14Z M14 14H25 M21 14V18 M25 14V17"/>
-<text class="desc" x="22" y="72">本地优先的桌面应用，集中管理各个项目的</text>
-<text class="desc" x="22" y="94">配置文件和模型凭据。</text>
-<circle cx="27" cy="121.5" r="5" fill="#3178C6"/>
-<text class="meta" x="38" y="126">TypeScript</text>
-<text class="meta" x="391" y="126" text-anchor="end">Electron / React</text>
+<rect class="card" x="8" y="6" width="399" height="148" rx="12"/>
+<text class="name" x="30" y="48">env-vault</text>
+<path class="icon" transform="translate(357 26)" d="M14 14A5 5 0 1 1 4 14A5 5 0 1 1 14 14Z M14 14H25 M21 14V18 M25 14V17"/>
+<text class="desc" x="30" y="78">本地优先的桌面应用，集中管理各个项目的</text>
+<text class="desc" x="30" y="100">配置文件和模型凭据。</text>
+<circle cx="35" cy="127.5" r="5" fill="#3178C6"/>
+<text class="meta" x="46" y="132">TypeScript</text>
+<text class="meta" x="385" y="132" text-anchor="end">Electron / React</text>
 </svg>

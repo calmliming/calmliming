@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="423" height="148" viewBox="0 0 423 148" role="img" aria-label="luna-care：记录女朋友的生理期，推算下一次并提前提醒。数据只存在手机本地。">
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="160" viewBox="0 0 415 160" role="img" aria-label="luna-care：记录女朋友的生理期，推算下一次并提前提醒。数据只存在手机本地。">
 <style>
   text { font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif; }
   .card { fill: #EEF2F5; }
@@ -13,13 +13,18 @@
     .meta { fill: #8796A5; }
     .icon { stroke: #6E8094; }
   }
+  @media (max-width: 400px) {
+    .name { font-size: 20px; }
+    .desc { font-size: 16px; }
+    .meta { font-size: 14px; }
+  }
 </style>
-<rect class="card" x="10" width="413" height="148" rx="12"/>
-<text class="name" x="32" y="42">luna-care</text>
-<path class="icon" transform="translate(373 20)" d="M17 4A10 10 0 1 0 24.5 19.5A8 8 0 0 1 17 4Z"/>
-<text class="desc" x="32" y="72">记录女朋友的生理期，推算下一次并提前提醒。</text>
-<text class="desc" x="32" y="94">数据只存在手机本地。</text>
-<circle cx="37" cy="121.5" r="5" fill="#00B4AB"/>
-<text class="meta" x="48" y="126">Dart</text>
-<text class="meta" x="401" y="126" text-anchor="end">Flutter</text>
+<rect class="card" x="8" y="6" width="399" height="148" rx="12"/>
+<text class="name" x="30" y="48">luna-care</text>
+<path class="icon" transform="translate(357 26)" d="M17 4A10 10 0 1 0 24.5 19.5A8 8 0 0 1 17 4Z"/>
+<text class="desc" x="30" y="78">记录女朋友的生理期，推算下一次并提前提醒。</text>
+<text class="desc" x="30" y="100">数据只存在手机本地。</text>
+<circle cx="35" cy="127.5" r="5" fill="#00B4AB"/>
+<text class="meta" x="46" y="132">Dart</text>
+<text class="meta" x="385" y="132" text-anchor="end">Flutter</text>
 </svg>

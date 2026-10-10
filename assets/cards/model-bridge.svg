@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="846" height="148" viewBox="0 0 846 148" role="img" aria-label="model-bridge：自托管的 AI API 中转平台。把 Claude、OpenAI、Gemini、DeepSeek 的账号变成标准接口分给朋友，每人一个 Key，多账号自动轮询，用量按天、模型和 Key 统计。">
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="160" viewBox="0 0 415 160" role="img" aria-label="model-bridge：自托管的 AI API 中转平台，多账号自动轮询，每人一个 Key，用量按天、模型和 Key 统计。">
 <style>
   text { font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", sans-serif; }
   .card { fill: #EEF2F5; }
@@ -13,13 +13,18 @@
     .meta { fill: #8796A5; }
     .icon { stroke: #6E8094; }
   }
+  @media (max-width: 400px) {
+    .name { font-size: 20px; }
+    .desc { font-size: 16px; }
+    .meta { font-size: 14px; }
+  }
 </style>
-<rect class="card" x="0" width="846" height="148" rx="12"/>
-<text class="name" x="22" y="42">model-bridge</text>
-<path class="icon" transform="translate(796 20)" d="M8 5V23 M20 5V23 M2 18H26 M2 12L8 5Q14 15 20 5L26 12"/>
-<text class="desc" x="22" y="72">自托管的 AI API 中转平台。把 Claude、OpenAI、Gemini、DeepSeek 的账号变成标准接口分给朋友，</text>
-<text class="desc" x="22" y="94">每人一个 Key，多账号自动轮询，用量按天、模型和 Key 统计。</text>
-<circle cx="27" cy="121.5" r="5" fill="#3178C6"/>
-<text class="meta" x="38" y="126">TypeScript</text>
-<text class="meta" x="824" y="126" text-anchor="end">Fastify / PostgreSQL / Vue 3 / Docker</text>
+<rect class="card" x="8" y="6" width="399" height="148" rx="12"/>
+<text class="name" x="30" y="48">model-bridge</text>
+<path class="icon" transform="translate(357 26)" d="M8 5V23 M20 5V23 M2 18H26 M2 12L8 5Q14 15 20 5L26 12"/>
+<text class="desc" x="30" y="78">自托管的 AI API 中转平台，多账号自动轮询，</text>
+<text class="desc" x="30" y="100">每人一个 Key，用量按天、模型和 Key 统计。</text>
+<circle cx="35" cy="127.5" r="5" fill="#3178C6"/>
+<text class="meta" x="46" y="132">TypeScript</text>
+<text class="meta" x="385" y="132" text-anchor="end">Fastify / PostgreSQL / Vue 3</text>
 </svg>
